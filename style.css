@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.container {
+    background: var(--Light-gray);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.karton {
+    margin: auto;
+}
+
+.card {
+    width: 350px;
+    margin: 0 auto;
+    background: var(--White);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 20px;
+}
+
+img {
+    height: 350px;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    font-size: 25px;
+    color: var(--Dark-blue);
+}
+
+p {
+    padding: 0 40px;
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: var(--Grayish-blue);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin: 0 auto;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media only screen and (min-width: 1100px)  {
+    .container {
+        margin: 10vh 20vh;
+        height: 80vh;
+        border-radius: 50px;
+    }
+
+    body {
+        background-image: url('https://image.slidesdocs.com/responsive-images/background/business-minimalist-pattern-white-geometric-technology-powerpoint-background_80196a1097__960_540.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+}
