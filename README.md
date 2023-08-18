@@ -1,5 +1,6 @@
 # Frontend Mentor - QR code component
 [Check here...](https://ccp-qr-code-component.netlify.app/)
+
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
